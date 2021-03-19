@@ -1,0 +1,13 @@
+Stepwise instruction to run the project :
+
+1) create local computer as server using xampp 
+2) install ffmpeg in your local computer and check by running all the commands to stream rtsp url (eg . ffmpeg ,ffplay 
+3) try running( ffplay "rtsp-url" ) this command to check the stream is working 
+4) create batch file as provided in the project eith the name of ipcam edit accordingy ) this file will
+  fetch the file from ipcam using rtsp url and save the video in the database in my case i have used my local pc to save the chunks of videos fetched .
+5) create video. html file and embedd js video player in it as provided in repository edit it with path source of vid in my case i have navigated server to the webpage folder and provided the http url of host server .
+6)run ipcam file successfully to obtain the stream in chunks which  will be saved in m3u8 extension then run or navigate to video.html file on web browser to run the stream 
+
+
+THANKYOU,
+AYUSHMAN PANDEY
